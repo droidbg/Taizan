@@ -4,7 +4,7 @@ const Header = () => {
   const name = "Taizan Users";
   return (
     <div className="header">
-      <img className="logo-header" src={logo} />
+      <img className="logo-header" src={logo} alt="Taigan Logo" />
       <div className="header-middle">
         <ul>
           <li className="header-item">Electronics</li>

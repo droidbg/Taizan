@@ -11,15 +11,17 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #131921;
 }
 
-.header-middle > ul,
-.header-end > ul {
+.header-middle ul,
+.header-end ul {
   display: flex;
+  gap: 20px;
 }
 .header-item {
-  margin: 20;
+  margin: 20px;
   list-style-type: none;
   cursor: pointer;
   color: #fff;
