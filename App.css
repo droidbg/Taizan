@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.logo-header {
+  height: 80px;
+  margin-left: 20;
+  margin-top: 5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131921;
+}
+
+.header-middle > ul,
+.header-end > ul {
+  display: flex;
+}
+.header-item {
+  margin: 20;
+  list-style-type: none;
+  cursor: pointer;
+  color: #fff;
+}
+.header-item:hover {
+  color: #ff6101;
+}
+/* #ff6101 amazon icon */
+/* #03788a  bg*/
