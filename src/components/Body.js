@@ -2,7 +2,7 @@ import BestSeller from "../pages/BestSeller";
 
 const Body = () => {
   return (
-    <div className="body">
+    <div className="body-content">
       <BestSeller />
     </div>
   );
